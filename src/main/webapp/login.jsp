@@ -29,10 +29,12 @@
 	%>
 	<h1>Login</h1>
 		<div align="center" style="padding: 40px;">
-	  	<form action="verificarLogin.jsp" method="post" name="formularioLogin">
+	  	<form action="verificarLogin.jsp" method="post">
 		   	<table border="0" >
-		   		<tr><td>Usuario:</td><td><input class="focus" type="text" name="usuario" required/></td></tr>
-				<tr><td>Clave:</td><td><input class="focus" type="text" name="clave" required/></td></tr>
+		   		<tr><td>Usuario:</td><td>
+		   			<input type="text" name="usuario" required/></td></tr>
+				<tr><td>Clave:</td><td>
+					<input type="text" name="clave" required/></td></tr>
 				<tr>
 					<td><input type="submit"/></td>
 					<td><input type="reset"/></td>
