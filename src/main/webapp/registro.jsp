@@ -101,6 +101,7 @@
  			<li><a href="https://www.instagram.com/kitu.naranjo"><i class="fab fa-instagram fa-2x"></i></a></li>
  			<li><a href="https://www.twitter.com/kitunaranjo"><i class="fab fa-twitter fa-2x"></i></a></li>
         </ul>
+        	<h3>Todos los derechos reservados Christian Naranjo © 2023 CHRISTECH</h3>
     </footer>
 </body>
 </html>

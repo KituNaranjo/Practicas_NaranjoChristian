@@ -50,10 +50,31 @@ public void setPerfil(Integer perfil) {
 	this.perfil = perfil;
 }
 
+public boolean cambiarClave(String nlogin, String nclave, String nuevaContrasena) {
+    boolean respuesta = false;
+    String sentencia = "SELECT * FROM tb_usuario WHERE login_us='" + nlogin +
+            "' AND clave_us='" + nclave + "';";
+    try {
+        ResultSet rs;
+        Conexion clsCon = new Conexion();
+        rs = clsCon.Consulta(sentencia);
+        if (rs.next()) {
+            String actualizacion = "UPDATE tb_usuario SET clave_us = '" + nuevaContrasena + "' WHERE login_us = '" + nlogin + "';";
+            clsCon.Ejecutar(actualizacion);
+            respuesta = true;
+        } else {
+            respuesta = false;
+            rs.close();
+        }
+    } catch (Exception ex) {
+        System.out.println(ex.getMessage());
+    }
+    return respuesta;
+}
+
 public boolean verificarUsuario(String nlogin, String nclave) {
 	boolean respuesta=false;
 	String sentencia= "Select * from tb_usuario where login_us='"+nlogin+"' and clave_us='"+nclave+"';";
-	//System.out.print(sentencia);
 	try {
 		ResultSet rs;
 		Conexion clsCon=new Conexion();

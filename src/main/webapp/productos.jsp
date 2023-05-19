@@ -46,6 +46,7 @@
 		<li><a href="modificarProducto.jsp">Modificar o Eliminar Producto</a></li>
 		<li><a href="añadirProductoOferta.jsp">Añadir producto en oferta</a></li>
 	</ul>
+		<h3>Todos los derechos reservados Christian Naranjo © 2023 CHRISTECH</h3>
   	</div>
 </main>
 </body>
