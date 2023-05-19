@@ -11,7 +11,8 @@
 <body>
 <header>
 		<h1>
-			CHRISTECH
+			<img src="imagenes/Logo.png" alt="CHRISTECH" width="200" height="200">
+			<br>CHRISTECH
 		</h1>
 		<h2 class="destacado">
 			Portátiles desde la gama más baja hasta la más avanzada

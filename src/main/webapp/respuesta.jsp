@@ -13,7 +13,8 @@
 </head>
 <body>
  <header>
-            <h1>CHRISTECH</h1>
+            <h1><img src="imagenes/Logo.png" alt="CHRISTECH" width="200" height="200">
+			<br>CHRISTECH</h1>
             <h2 class="destacado">De todo a un mejor precio</h2>
         </header>
         <nav>
