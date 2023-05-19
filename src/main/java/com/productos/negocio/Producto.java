@@ -153,7 +153,6 @@ public class Producto {
 				+ "<th>Cantidad</th>"
 				+ "</tr>";
 		Conexion con=new Conexion();
-		
 			rs=con.Consulta(sql);
 		try {
 			while(rs.next()) {
